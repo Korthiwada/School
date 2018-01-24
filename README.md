@@ -1,5 +1,6 @@
 # School Automation 
-                School Automation is an online platform for making a paperless administration. It decreases the workload on the administrators and making transparency possible.
+                School Automation is an online platform for making a paperless administration. 
+                It decreases the workload on the administrators and making transparency possible.
 # About : 
 ## What?
 * One stop solution for automation of school administration. 
