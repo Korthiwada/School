@@ -42,3 +42,10 @@ class Attendance(models.Model):
     Year = models.CharField(max_length=100)
     Class_Attended = models.IntegerField
     Total_Classes = models.IntegerField
+
+class Login(models.Model):
+    student_id = models.ForeignKey(Student, on_delete=models.CASCADE)
+    password = models.CharField(max_length=100)
+
+    def __str__(self):
+        return "Student : " + self.student_id.name
