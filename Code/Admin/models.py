@@ -53,6 +53,7 @@ class Attendance(models.Model):
     student_id = models.ForeignKey(Student, on_delete=models.CASCADE)
     Year = models.CharField(max_length=100)
     Class_Attended = models.IntegerField()
+    month = models.CharField(max_length=100)
     Total_Classes = models.IntegerField()
 
     def __str__(self):

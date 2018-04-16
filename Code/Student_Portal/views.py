@@ -14,8 +14,10 @@ def profile(request , student_id):
 def attendance(request , student_id):
     student = Student.objects.filter(id=student_id)
     attendance = Attendance.objects.filter(student_id=student[0], Year='2018')
-    context = {'attendance' : attendance,
-               'student' : student[0] }
+    a_p = (attendance[0].Class_Attended * 100 )/attendance[0].Total_Classes
+    context = {'attendance' : attendance[0],
+               'student' : student[0],
+               'a_p' : a_p}
     return render(request , 'Student_Portal/Attendance.html', context)
 
 def results(request , student_id):
