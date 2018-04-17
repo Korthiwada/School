@@ -64,18 +64,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/contact-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="255">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/index.html">
+      <file leaf-file-name="career.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/career.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
@@ -129,7 +129,6 @@
         <option value="$PROJECT_DIR$/Blog/apps.py" />
         <option value="$PROJECT_DIR$/Code/settings.py" />
         <option value="$PROJECT_DIR$/Code/urls.py" />
-        <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/career.html" />
         <option value="$PROJECT_DIR$/Blog/urls.py" />
         <option value="$PROJECT_DIR$/Blog/views.py" />
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/school-calendar.html" />
@@ -144,6 +143,7 @@
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/about.html" />
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/admissions.html" />
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/contact-us.html" />
+        <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/career.html" />
       </list>
     </option>
   </component>
@@ -675,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/career.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Student_Portal/Attendance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -793,6 +786,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/contact-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/career.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
