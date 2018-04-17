@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+<head><link rel="shortcut icon" href="{% static 'Blog/images/emb.ico' %}" />
+<title>SGGHS | Contact Us</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'Blog/styles/style.css' %}" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="{% static 'Blog/styles/ie6.css' %}" /><![endif]-->
+</head>
+<body>
+<div id="page">
+  <div id="header">
+    <div id="section">
+      <div><a href="index.html"><img src="{% static 'Blog/images/logo2.png'%}" alt="" /></a></div>
+      <span> contact us:+91 9440649338<br />
+      <br />
+      +91 9440371427 </span> </div>
+    <ul>
+      <li><a href="{% url 'Blog:index' %}">Home</a></li>
+          <li><a href="{% url 'Blog:about' %}">About Us</a></li>
+          <li><a href="{% url 'Blog:admission' %}">Admissions</a></li>
+          <li><a href="{% url 'Blog:training' %}">Time Table</a></li>
+        <li><a href="{% url 'Blog:school_calendar' %}">School Calendar</a></li>
+        <li><a href="{% url 'Blog:blog' %}">Login</a></li>
+        <li class="current"><a href="{% url 'Blog:contact' %}">Contact us</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    <div>
+      <h3>Contact Us</h3>
+      <p><strong></strong></p>
+      <h5>Sai Grace Grammar High School</h5>
+      <p>Sri Nagar Colony,SIDDIPET</p>
+	  <p>PINCODE:502103</p>
+	  <p>TELANGANA</p>
+      <p>Tel: + 91 9440649338</p>
+      <p>Fax: + 91 9440371427</p>
+      <p>Email: saigrace.school@gmail.com</p>
+	  </div>
+  <div class ="mapsinfo"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3792.451097650631!2d78.84568441445077!3d18.096948187657063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc92addec65099%3A0x20ad611c94cda5c3!2sSai+Grace+Grammer+High+School!5e0!3m2!1sen!2sin!4v1523795667459" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+  </div>
+      
+    </div>
+  
+  <div id="footer">
+    <div>
+      <div id="connect"> <a href="#"><img src="images/icon-facebook.gif" alt="" /></a> <a href="#"><img src="images/icon-twitter.gif" alt="" /></a> <a href="#"><img src="images/icon-youtube.gif" alt="" /></a> </div>
+      <div class="section">
+        <ul>
+         <li><a href="{% url 'Blog:index' %}">Home</a></li>
+          <li><a href="{% url 'Blog:about' %}">About Us</a></li>
+          <li><a href="{% url 'Blog:admission' %}">Admissions</a></li>
+          <li><a href="{% url 'Blog:training' %}">Time Table</a></li>
+         <li><a href="{% url 'Blog:contact' %}">Contact us</a></li>
+		  <li><a href="{% url 'Blog:school_calendar' %}">School Calendar</a></li>
+        </ul>
+        <p><strong>Copyright &copy;  - All Rights Reserved | DESIGNED BY IIITians, SWARGAM NAREN RITVIK,RAHUL KORTHIWADA</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

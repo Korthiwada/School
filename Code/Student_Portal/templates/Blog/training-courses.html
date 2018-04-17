@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+<head><link rel="shortcut icon" href="{% static 'Blog/images/emb.ico' %}" />
+<title>SGGHS | TIME TABLE</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'Blog/styles/style.css' %}" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="{% static 'Blog/styles/ie6.css' %}" /><![endif]-->
+</head>
+<body>
+<div id="page">
+  <div id="header">
+    <div id="section">
+      <div><a href="index.html"><img src="{% static 'Blog/images/logo2.png' %}" alt="" /></a></div>
+      <span> contact us:+91 9440649338<br />
+      <br />
+      +91 9440371427 </span> </div>
+    <ul>
+      <li><a href="{% url 'Blog:index' %}">Home</a></li>
+          <li><a href="{% url 'Blog:about' %}">About Us</a></li>
+          <li><a href="{% url 'Blog:admission' %}">Admissions</a></li>
+          <li class="current"><a href="{% url 'Blog:training' %}">Time Table</a></li>
+        <li><a href="{% url 'Blog:school_calendar' %}">School Calendar</a></li>
+        <li><a href="{% url 'Blog:blog' %}">Login</a></li>
+        <li><a href="{% url 'Blog:contact' %}">Contact us</a></li>
+    </ul>
+  </div>
+  <style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>CLASS TIME TABLE</h2>
+
+
+<br>
+
+<table id="t01">
+  <tr>    
+    <th>CLASS</th>
+    <th>Period 1</th>
+    <th>Period 2</th>
+    <th>Period 3</th>
+    <th>Period 4</th>
+    <th>Period 5</th>
+    <th>Period 6</th>
+    <th>Period 7</th>
+  </tr>
+  <tr>
+    <td>Nursery</td>
+    <td>Drawing</td>
+    <td>Drawing</td>
+    <td>Indor Games</td>
+    <td>Indor Games</td>
+    <td>Rhymes</td>
+    <td>Rhymes</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>L.K.G</td>
+    <td>Indor Games</td>
+    <td>Indor Games</td>
+    <td>Rhymes</td>
+    <td>Basics</td>
+    <td>Basics</td>
+    <td>Drawing</td>
+    <td>-</td>
+  </tr>
+  <tr>
+  
+    <td>U.K.G</td>
+    <td>English</td>
+    <td>Indor Games</td>
+    <td>Drawing</td>
+    <td>Maths</td>
+    <td>Rhymes</td>
+    <td>Dance</td>
+    <td>-</td>
+  </tr>
+  <tr>
+  <td>FIRST</td>
+    <td>English</td>
+    <td>Maths</td>
+    <td>Scince</td>
+    <td>Social</td>
+    <td>Telugu</td>
+    <td>Games</td>
+    <td>-</td>
+  </tr>
+  <tr>
+  <td>SECOND</td>
+    <td>Maths</td>
+    <td>Science</td>
+    <td>Social</td>
+    <td>Telugu</td>
+    <td>English</td>
+    <td>Study hour</td>
+    <td>Games</td>
+  </tr>
+  <tr>
+  <td>THIRD</td>
+    <td>Science</td>
+    <td>Social</td>
+    <td>Telugu</td>
+    <td>Hindi</td>
+    <td>Games</td>
+    <td>English</td>
+    <td>Study hour</td>
+  </tr>
+  <tr>
+  <td>FOURTH</td>
+    <td>Social</td>
+    <td>Telugu</td>
+    <td>Hindi</td>
+    <td>Games</td>
+    <td>English</td>
+    <td>Maths</td>
+    <td>Study hour</td>
+  </tr>
+  <tr>
+  <td>FIFTH</td>
+    <td>Telugu</td>
+    <td>Hindi</td>
+    <td>English</td>
+    <td>Maths</td>
+    <td>Sciece</td>
+    <td>Social</td>
+    <td>Games</td>
+  </tr>
+  <tr>
+  <td>SIXTH</td>
+    <td>Social</td>
+    <td>Maths</td>
+    <td>Hindi</td>
+    <td>Telugu</td>
+    <td>Games</td>
+    <td>English</td>
+    <td>Science</td>
+  </tr>
+  <tr>
+  <td>SEVENTH</td>
+    <td>Hindi</td>
+    <td>English</td>
+    <td>Maths</td>
+    <td>Social</td>
+    <td>Games</td>
+    <td>Science</td>
+    <td>Telugu</td>
+  </tr>
+  <tr>
+  <td>EIGTH</td>
+    <td>Science</td>
+    <td>Telugu</td>
+    <td>Social</td>
+    <td>English</td>
+    <td>Maths</td>
+    <td>Hindi</td>
+    <td>Games</td>
+  </tr>
+  <tr>
+  <td>NINTH</td>
+    <td>English</td>
+    <td>Social</td>
+    <td>Science</td>
+    <td>Maths</td>
+    <td>Games</td>
+    <td>Telugu</td>
+    <td>Hindi</td>
+  </tr>
+  <tr>
+  <td>TENTH</td>
+    <td>Maths</td>
+    <td>Science</td>
+    <td>Telugu</td>
+    <td>Hindi</td>
+    <td>English</td>
+    <td>Social</td>
+    <td>Study hours</td>
+  </tr>
+  
+</table>
+  <div id="footer">
+    <div>
+      <div id="connect"> <a href="#"><img src="images/icon-facebook.gif" alt="" /></a> <a href="#"><img src="images/icon-twitter.gif" alt="" /></a> <a href="#"><img src="images/icon-youtube.gif" alt="" /></a> </div>
+      <div class="section">
+        <ul>
+          <li><a href="{% url 'Blog:index' %}">Home</a></li>
+          <li><a href="{% url 'Blog:about' %}">About Us</a></li>
+          <li><a href="{% url 'Blog:admission' %}">Admissions</a></li>
+          <li><a href="{% url 'Blog:training' %}">Time Table</a></li>
+         <li><a href="{% url 'Blog:contact' %}">Contact us</a></li>
+		  <li><a href="{% url 'Blog:school_calendar' %}">School Calendar</a></li>
+        </ul>
+		<p>Copyright &copy;  - All Rights Reserved | DESIGNED BY IIITians, SWARGAM NAREN RITVIK,RAHUL KORTHIWADA</p>
+		</div>
+		
+    </div>
+  </div>
+</div>
+</body>
+</html>

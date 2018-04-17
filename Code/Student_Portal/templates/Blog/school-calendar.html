@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+<head><link rel="shortcut icon" href="{% static 'Blog/images/emb.ico' %}" />
+<title>SGGHS  | School Calendar</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'Blog/styles/style.css' %}" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="{% static 'Blog/styles/ie6.css' %}" /><![endif]-->
+</head>
+<body>
+<div id="page">
+  <div id="header">
+    <div id="section">
+      <div><a href="index.html"><img src="{% static 'Blog/images/logo2.png' %}" alt="" /></a></div>
+      <span> contact us:+91 9440649338<br />
+      <br />
+      +91 9440371427 </span> </div>
+    <ul>
+      <li><a href="{% url 'Blog:index' %}">Home</a></li>
+          <li><a href="{% url 'Blog:about' %}">About Us</a></li>
+          <li><a href="{% url 'Blog:admission' %}">Admissions</a></li>
+          <li><a href="{% url 'Blog:training' %}">Time Table</a></li>
+        <li class="current"><a href="{% url 'Blog:school_calendar' %}">School Calendar</a></li>
+        <li><a href="{% url 'Blog:blog' %}">Login</a></li>
+        <li><a href="{% url 'Blog:contact' %}">Contact us</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    <div>
+      <h3>List Of Holydays - 2018</h3>
+      <div class="calendar">
+        <dl>
+          <dt>JANUARY</dt>
+          <dd>New Year's Day - Mon, 1</dd>
+          <dd>Guru Govind Singh's Birthday  - Thu, 5</dd>
+          <dd>Makar Sankranthi - Sat, 14</dd>
+          
+          <dd>Republic Day - Fri, 26</dd>
+		  
+        </dl>
+        <dl>
+          <dt>FEBRUARY</dt>
+          <dd>Swamy Dayananda Saraswathi Jayanti - Sat, 10</dd>
+          <dd>Sivaratri - Wed, 14</dd>
+          <dd>Sivaji Jayanti - Mon, 19</dd>
+          <dd></dd>
+          
+        </dl>
+        <dl>
+          <dt>MARCH</dt>
+          <dd>Holi - Sun, 2</dd>
+		  <dd>Gudi Padava - Sun, 18</dd>
+		  <dd>Ram Navami - Sun,25</dd>
+		  <dd>Mahavir Jayanti - Thur,29</dd>
+		  <dd></dd>
+        </dl>
+        <dl>
+          <dt>APRIL</dt>
+          <dd>Hazarat Ali's Birthday - Sun, 1</dd>
+		  
+		  
+		  <dd>Buddapournima -Wed,30</dd>
+        </dl>
+        <dl>
+          <dt>MAY</dt>
+          <dd>Rabindranath Birthday - Wed,9</dd>
+		  
+        </dl>
+        <dl>
+          <dt>JUNE</dt>
+          <dd>Jamat-UI-Vida - Fri,15</dd>
+		  <dd>Idul Fitr - Sat,16</dd>
+        </dl>
+        <dl>
+          <dt>JULY</dt>
+          <dd>Rath Yathra - Sat,14</dd>
+		  
+        </dl>
+        <dl>
+          <dt>AUGUST</dt>
+          <dd>Independence Day - Wed,15 </dd>
+		  
+		  <dd>Rakhi -Sat,26</dd>
+        </dl>
+        <dl>
+          <dt>SEPTEMBER</dt>
+           <dd>Janmastami - Mon,3</dd>
+		   <dd>Ganesh Chaturthi - Thur,13</dd>
+        </dl>
+        <dl>
+          <dt>OCTOBER</dt>
+          <dd>Manatma Ghandhi Jayanti - Tue,2</dd>
+		  <dd>Dussehra - Fri,19</dd>
+		  <dd>Maharshi Valmiki Birthday - Wed,24</dd>
+		  <dd>Karaka Chaturthi - Sat,27</dd>
+        </dl>
+        <dl>
+          <dt>NOVEMBER</dt>
+          <dd>Deepavali - Tue,6</dd>
+		  <dd>Deepavali - Wed,7</dd>
+		  <dd>Gowardham Puja - Thur,8</dd>
+		  <dd>Bhai Duj - Fri,9</dd>
+		  <dd>Surya sasthi - Tue,13</dd>
+		  <dd>Milad-un-Nabi - Wed,21</dd>
+		  <dd>Guru Nanak Birthday - Fri,23</dd>
+		  <dd>Guru teg Day - Sat,24</dd>
+		  
+        </dl>
+        <dl>
+          <dt>DECEMBER</dt>
+          <dd>Christamas Eve - Sun,24</dd>
+		  <dd>Christmas Day - Mon,25</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div>
+      <div id="connect"> <a href="#"><img src="images/icon-facebook.gif" alt="" /></a> <a href="#"><img src="images/icon-twitter.gif" alt="" /></a> <a href="#"><img src="images/icon-youtube.gif" alt="" /></a> </div>
+      <div class="section">
+        <ul>
+         <li><a href="{% url 'Blog:index' %}">Home</a></li>
+          <li><a href="{% url 'Blog:about' %}">About Us</a></li>
+          <li><a href="{% url 'Blog:admission' %}">Admissions</a></li>
+          <li><a href="{% url 'Blog:training' %}">Time Table</a></li>
+         <li><a href="{% url 'Blog:contact' %}">Contact us</a></li>
+		  <li><a href="{% url 'Blog:school_calendar' %}">School Calendar</a></li>
+        </ul>
+		<p>Copyright &copy;  - All Rights Reserved | DESIGNED BY IIITians, SWARGAM NAREN RITVIK,RAHUL KORTHIWADA</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
