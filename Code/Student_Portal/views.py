@@ -18,7 +18,7 @@ def profile(request):
 def attendance(request):
     student_id = request.session['student_id']
     student = get_object_or_404(Student, id=student_id);
-    attendance = Attendance.objects.filter(student_id=student[0], Year='2018')
+    attendance = Attendance.objects.filter(student_id=student, Year='2018')
     cl_at = 0
     cl_t = 0
     for at in attendance:
