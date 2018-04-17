@@ -19,6 +19,11 @@
 
   <script type="text/javascript">
   window.onload = function () {
+  var month = ['July' , 'June'];
+  var i=1;
+  <!--{% for at in attendance %}-->
+  <!--month += 'July';-->
+  <!--{% endfor %}-->
     var chart = new CanvasJS.Chart("chartContainer",
     {
       title:{
@@ -35,12 +40,9 @@
         legendText: "Attended",
         color: "gold",
         dataPoints: [
-        { y: 10, label: "June"},
-        { y: 21, label: "July"},
-        { y: 22, label: "August"},
-        { y: 13, label: "September"},
-        { y: 24, label: "October"},
-        { y: 1, label: "November"}
+        {% for at in attendance %}
+        { y: {{ at.Class_Attended}}, label : '{{at.month}}' },
+        {% endfor %}
         ]
       },
       {
@@ -49,12 +51,9 @@
         legendText: "Total",
         color: "silver",
         dataPoints: [
-        { y: 30, label: "June"},
-        { y: 31, label: "July"},
-        { y: 30, label: "August"},
-        { y: 31, label: "September"},
-        { y: 30, label: "October"},
-        { y: 31, label: "November"}
+        {% for at in attendance %}
+        { y: {{ at.Total_Classes }}, label : '{{at.month}}' },
+        {% endfor %}
         ]
       }
       ]
