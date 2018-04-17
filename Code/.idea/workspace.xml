@@ -44,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admissions.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admissions.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/admissions.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -57,8 +57,18 @@
       <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Student_Portal/Results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
+            <state relative-caret-position="1496">
               <caret line="101" column="78" lean-forward="false" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/contact-us.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -106,18 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Student_Portal/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -134,7 +132,6 @@
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/career.html" />
         <option value="$PROJECT_DIR$/Blog/urls.py" />
         <option value="$PROJECT_DIR$/Blog/views.py" />
-        <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/contact-us.html" />
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/school-calendar.html" />
         <option value="$PROJECT_DIR$/Student_Portal/templates/Student_Portal/Attendance.html" />
         <option value="$PROJECT_DIR$/Student_Portal/templates/Student_Portal/profile.html" />
@@ -146,6 +143,7 @@
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/training-courses.html" />
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/about.html" />
         <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/admissions.html" />
+        <option value="$PROJECT_DIR$/Student_Portal/templates/Blog/contact-us.html" />
       </list>
     </option>
   </component>
@@ -684,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Student_Portal/Attendance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -743,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Student_Portal/Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="101" column="78" lean-forward="false" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -794,6 +777,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/admissions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Student_Portal/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="101" column="78" lean-forward="false" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Student_Portal/templates/Blog/contact-us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
