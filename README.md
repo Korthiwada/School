@@ -11,10 +11,7 @@
 * Dedicated and Committed Team with sole focus on enhancing and delevering a superior product and achieving customer 
   delight.
 ## How?
-* NodeJS
-* AngularJS
-* ExpressJS
-* MySql Database
+* Django
 ## Who?
 * Rahul Korthiwada
 * Swargam Naren Ritvik
