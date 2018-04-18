@@ -2,21 +2,26 @@ from django.shortcuts import render , redirect, get_object_or_404
 from django.http import HttpResponse
 from Admin.models import Student,Attendance,Results,Login
 from django.template import loader
+from django.http import Http404
 
 def login(request):
     return HttpResponse("<h1>Login1</h1>")
 
 def profile(request):
-    if request.session['student_id']:
+    try:
         student_id = request.session['student_id']
-        student = get_object_or_404(Student, id=student_id);
-        context = {'student' : student}
-        return render(request , 'Student_Portal/profile.html', context)
-    else:
-        return redirect('Student_Portal:login')
+    except KeyError:
+        raise Http404("You have to Login First")
+    student = get_object_or_404(Student, id=student_id);
+    context = {'student' : student}
+    return render(request , 'Student_Portal/profile.html', context)
 
 def attendance(request):
-    student_id = request.session['student_id']
+    try:
+        student_id = request.session['student_id']
+    except KeyError:
+        raise Http404("You have to Login First")
+        return redirect('Blog : blog')
     student = get_object_or_404(Student, id=student_id);
     attendance = Attendance.objects.filter(student_id=student, Year='2018')
     cl_at = 0
