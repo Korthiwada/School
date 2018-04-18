@@ -21,8 +21,7 @@ def attendance(request):
         student_id = request.session['student_id']
     except KeyError:
         raise Http404("You have to Login First")
-        return redirect('Blog : blog')
-    student = get_object_or_404(Student, id=student_id);
+    student = get_object_or_404(Student, id=student_id)
     attendance = Attendance.objects.filter(student_id=student, Year='2018')
     cl_at = 0
     cl_t = 0
@@ -37,7 +36,10 @@ def attendance(request):
     return render(request , 'Student_Portal/Attendance.html', context)
 
 def results(request):
-    student_id = request.session['student_id']
+    try:
+        student_id = request.session['student_id']
+    except KeyError:
+        raise Http404("You have to Login First")
     student = get_object_or_404(Student, id=student_id)
     results = Results.objects.filter(student_id = student )
     context = {'results': results,
